@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 ADD ./install-python.sh ./install-python.sh
 
-RUN bash install-python.sh 2.6.9
 RUN bash install-python.sh 2.7.18
 RUN bash install-python.sh 3.4.10
 RUN bash install-python.sh 3.5.10
